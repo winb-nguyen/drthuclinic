@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topmenu
+{
+    height: auto;
+    background-color: #F2F2F2;
+    
+}
+.logo
+{
+    height: 100px;
+}
+
+.contact
+{
+    height: auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-size: 15pt;
+    
+}
+
+.menu
+{
+    
+    background-color: #69BFB7;
+     
+}
+   
+.menu ul li
+{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.banner
+{
+    height: auto;
+    background-color: whitesmoke;
+}
+
+
+
+//------- {{ link hover }} -------//
+
+ul {
+    background: #F5F5F5;
+    display: table;
+    margin: 60px auto;
+    padding: 0px 10px;
+    border-radius: 8px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+ul li a {
+    font-family: arial;
+    color: #ff9800;
+    text-decoration: none;
+    position: relative;
+    padding: 7px 10px;
+    font-size: 18px;
+    display: block;
+}
+ul li a + a {
+    margin-left: 16px;
+}
+ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+ul a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.button
+{
+    background-color: #69BFB7;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    
+    
+}
+
+.button:hover
+{
+    background-color: #308C83;
+
+    
+}
+
+.buttonoutline
+
+{
+    
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #727171;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    
+}
+
+.hinhanh
+{
+    height: 400px;
+   
+}
+
+.noidung
+{
+    height: 400px;
+}
+
+/*CARD CONTENT*/
+
+.user-pic {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 20px auto 20px;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    border-top: 3px solid #69BFB7;
+    border-bottom: 3px solid #69BFB7;
+    transform: rotate(-30deg);
+    transition: 0.5s;
+}
+.card-box:hover .user-pic {
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+.card-box {
+    padding: 15px;
+    background-color: #fdfdfd;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 8px 0px #d4d4d4;
+    transition: 0.5s;
+}
+.card-box:hover {
+	border: 1px solid #C2F2ED;
+    
+}
+.card-box p {
+    color: #808080;
+}
+
+/*ABC*/
+.buttonphu
+{
+    width: 120px;
+    height: 40px;
+    color: #69BFB7;
+    border: 2px solid #69BFB7;
+    border-radius: 20px;
+
+}
+
+.buttonphu:hover
+{
+    background-color: #308C83;
+    color:white;
+}
+.cauhoi
+{
+    height: auto;
+    padding-top: 120px;
+    box-sizing: border-box;
+    
+   
+}
+
+.chantrang
+{
+    background-color: #F2F2F2;
+    text-align: left;
+    color: #308C83;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+h1
+{
+    color: #308C83;
+}
+.lienhe
+{
+    height: 500px;
+    background-image: url("../images/us.png");
+    z-index: 1;
+}
+
+.formlienhe
+
+{
+    height: 500px;
+    background-color: rgba(48, 140, 131, 0.5);
+    z-index: 8;
+}
+
+input
+{
+    width: 300px;
+    height: 40px;
+}
+
+/*-- testimonial Section CSS --*/
+#testimonial {
+    padding: 30px 0px 20px;
+    color: #000;
+    
+}
+#testimonial h2 {
+    font-style: italic;
+    color: #000;
+    font-size: 26px;
+    text-align: center;
+}
+#testimonial .client-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    margin: 0px auto;
+    border-radius: 100%;
+    position: absolute;
+    left: 0px;
+}
+#testimonial .carousel-content {
+    padding: 20px 0px 20px 100px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+#testimonial h3 {
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: right;
+}
+#testimonial p {
+    font-size: 15px;
+}
+#testimonial .client-img img {
+    width: 100%;
+}
+#testimonial .carousel-control-prev,
+#testimonial .carousel-control-next {
+    font-size: 36px;
+
+}
+
+@media (max-width: 576px) {
+#testimonial .carousel-content {
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+}
+#testimonial .client-img {
+    margin: 20px auto;
+    position: static;
+}
+#testimonial h3, #testimonial p {
+    text-align: center;
+}
+}
+/*-- End Testimonial Section CSS --*/
+
+/*SERVICES*/
+
+.our-services {
+    
+    padding: 70px 0px;
+}
+.service-box {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 15px 0px 15px;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+.service-box:hover {
+    background-color: #69BFB7;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+.service-box:hover h3 a{
+  color: #308C83;
+}
+.service-box i {
+    font-size: 60px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #308C83;
+}
+.service-box h3 a {
+    text-decoration: none;
+    color: #69BFB7;
+    font-size: 24px;
+}
+.service-box :before {
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+
+
+/*Cẩm nang mùa dịch*/
+.outer {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: arial;
+    line-height: 26px;
+}
+.faq-content {
+    background-color: #f1f1f1;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+summary {
+    background-color: #308C83;
+    color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    outline: none;
+    margin: 20px 0px;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+details[open] summary ~ * {
+    animation: smooth 0.4s ease-in-out;
+}
+@keyframes smooth {
+    0% {
+        opacity: 0;
+        margin-top: -10px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+details > summary::after {
+    position: absolute;
+    content: "+";
+    right: 25px;
+}
+details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 25px;
+}
+
+/*MENU RES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+header {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background: #69BFB7;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.brand-logo {
+    max-width: 75px;
+    float: left;
+    padding: 14px 0px;
+}
+.brand-logo img {
+    max-width: 100%;
+}
+.navigation {
+    margin-left: -30px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.navigation li {
+    list-style: none;
+    float: left;
+}
+.navigation li a {
+    color: #fff;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    
+}
+.navigation li a i {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.show-menu-btn,
+.hide-menu-btn {
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.show-menu-btn {
+    margin: 0px;
+    float: right;
+}
+.show-menu-btn i {
+    line-height: 100px;
+}
+.navigation a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+    color: #000;
+   
+}
+#toggle-btn {
+    position: absolute;
+    visibility: hidden;
+    z-index: 5;
+}
+
+/*-- Responsive CSS --*/
+@media screen and (max-width:767px) {
+.show-menu-btn,
+.hide-menu-btn {
+    display: block;
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    height: 600px;
+    background: #69BFB7;
+    top: -100%;
+    left: 0;
+    padding: 50px 0px;
+    transition: 1s;
+    z-index: 8;
+}
+.navigation li {
+    width: 100%;
+}
+.navigation li a {
+    padding: 15px 15px;
+    text-align: left;
+}
+.navigation li a i {
+    width: auto;
+    font-size: 20px;
+}
+.hide-menu-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+#toggle-btn:checked ~ nav .navigation {
+    top: 0px;
+}
+}
